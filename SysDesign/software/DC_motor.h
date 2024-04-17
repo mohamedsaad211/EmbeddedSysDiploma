@@ -16,7 +16,8 @@ enum
 }DC_state_id;
 
 //state function prototyping
-void US_init();
+void DC_init();
+
 STATE_define(DC_busy);
 STATE_define(DC_idle);
 
